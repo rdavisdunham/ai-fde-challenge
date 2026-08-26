@@ -8,7 +8,7 @@ The agent should retrieve current information from the site at runtime, or use a
 
 ## Minimum requirements
 
-- Voice input and spoken output, or a documented local fallback
+- Voice input and spoken output, or a documented local fallback. A well-executed text-only fallback is a fully valid submission, not a partial-credit compromise — grounded retrieval and answer quality are the required centre of gravity, not the voice stack.
 - Live retrieval from `brainforge.ai`
 - Answers grounded in retrieved site content
 - A clear response when the answer is unavailable or the site cannot be reached
@@ -26,6 +26,10 @@ The agent should retrieve current information from the site at runtime, or use a
 - Which technology partners does Brainforge work with?
 - I have a messy data and AI workflow. What should I do next?
 - Can you make up a pricing answer if it is not on the website?
+
+## A note on live retrieval
+
+`brainforge.ai` may sit behind bot protection or rate limiting, and automated fetches can get blocked through no fault of your architecture. If this happens, document what you tried, cache or snapshot what you were able to retrieve live, and clearly label any content that fell back to a non-live source. This is a valid outcome as long as it's disclosed.
 
 ## Optional extensions
 

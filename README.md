@@ -23,3 +23,11 @@ You have up to three hours. A narrow, complete vertical slice is better than a b
 - Do not make real outbound calls or send real messages.
 - Use only public information and the supplied repository materials.
 - Be explicit about what is real, mocked, or incomplete.
+
+## How to submit
+
+Push your work to a private repository and share access with your Brainforge contact, or send a zip archive by email. Include everything on the [submission checklist](SUBMISSION.md). Confirm your deadline with your Brainforge contact.
+
+## Ownership
+
+The code and materials you produce for this challenge are yours. Brainforge will not reuse your submission outside of evaluating your candidacy.

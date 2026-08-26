@@ -10,3 +10,7 @@ Both tracks use the same themes:
 - Evaluation discipline: success is defined and tested, not only demonstrated
 - FDE communication: decisions, limitations, and next steps are clear
 - Use of AI tools: productive use while retaining ownership of design and tradeoffs
+
+## Gating vs. supporting
+
+"Working vertical slice" and "problem framing" are gating: a submission that is broad but doesn't run end to end, or that never defines a user and success condition, should not pass regardless of polish elsewhere. The remaining themes are supporting signal, weighted at reviewer judgement. When multiple people review the same submission, discuss and reconcile scores against this split before finalizing.

@@ -27,6 +27,10 @@ The agent should retrieve current information from the site at runtime, or use a
 - I have a messy data and AI workflow. What should I do next?
 - Can you make up a pricing answer if it is not on the website?
 
+## A note on voice provider access
+
+Brainforge will not provide an API key for voice input/output — bring your own. If you want real TTS without signing up for a paid plan, [ElevenLabs](https://elevenlabs.io) offers 10k credits/month on a free account, which is enough for this challenge.
+
 ## A note on live retrieval
 
 `brainforge.ai` may sit behind bot protection or rate limiting, and automated fetches can get blocked through no fault of your architecture. If this happens, document what you tried, cache or snapshot what you were able to retrieve live, and clearly label any content that fell back to a non-live source. This is a valid outcome as long as it's disclosed.

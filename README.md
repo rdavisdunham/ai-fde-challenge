@@ -26,8 +26,8 @@ You have up to three hours. A narrow, complete vertical slice is better than a b
 
 ## How to submit
 
-Push your work to a private repository and share access with your Brainforge contact, or send a zip archive by email. Include everything on the [submission checklist](SUBMISSION.md). Confirm your deadline with your Brainforge contact.
+Fork this repository and open a pull request back to it with your solution in a top-level `submissions/<your-name>/` directory. Include everything on the [submission checklist](SUBMISSION.md) in your PR description or a README inside your submission directory. Confirm your deadline with your Brainforge contact.
 
 ## Ownership
 
-The code and materials you produce for this challenge are yours. Brainforge will not reuse your submission outside of evaluating your candidacy.
+You retain full ownership and all rights to the code and materials you submit. Brainforge will use your submission only to evaluate your candidacy for this role, will not use it in production, and will not share it outside the hiring process.
